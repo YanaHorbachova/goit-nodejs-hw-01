@@ -4,6 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "start": "node index",
+    "dev": "nodemon index",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -16,5 +18,11 @@
   "bugs": {
     "url": "https://github.com/YanaHorbachova/goit-nodejs-hw-01/issues"
   },
-  "homepage": "https://github.com/YanaHorbachova/goit-nodejs-hw-01#readme"
+  "homepage": "https://github.com/YanaHorbachova/goit-nodejs-hw-01#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.12"
+  },
+  "dependencies": {
+    "commander": "^8.2.0"
+  }
 }
