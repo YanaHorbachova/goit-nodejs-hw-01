@@ -1,7 +1,5 @@
 # goit-nodejs-hw-01
 
-Функции для роботы з файлами
-
 # Получаем и выводим весь список контактов в виде таблицы (console.table)
 
 node index.js --action="list" 
